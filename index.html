@@ -22,8 +22,8 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
+              src="./assets/png/passfoto.png"
+              
               class="header__logo-img"
             />
           </div>
@@ -92,17 +92,8 @@
           <a href="./#projects" class="btn btn--bg">Experience</a>
         </div>
       </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/linkedin-ico.png" 
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        
+     
+         
         </div>
       </div>
       <div class="home-hero__mouse-scroll-cont">
@@ -255,116 +246,160 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            <i class="fa fa-home" aria-hidden="true"></i> Jl. Kayu Jati 2 Gg.6 No.9 Kel. Rawamangun Kec. Pulogadung Jakarta Timur </p>
+            <i class="fa fa-envelope" aria-hidden="true"></i> iqsanabiyuda13@gmail.com </p>
+            <i class="fa fa-phone" aria-hidden="true"></i> +6285719779038 </p>
+            <i class="fa fa-flag" aria-hidden="true"></i> Indonesia </p>
           </span>
         </h2>
-        <div class="contact__form-container">
-          <form action="#" class="contact__form">
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input
-                required
-                placeholder="Enter Your Name"
-                type="text"
-                class="contact__form-input"
-                name="name"
-                id="name"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
-              <input
-                required
-                placeholder="Enter Your Email"
-                type="text"
-                class="contact__form-input"
-                name="email"
-                id="email"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
-              <textarea
-                required
-                cols="30"
-                rows="10"
-                class="contact__form-input"
-                placeholder="Enter Your Message"
-                name="message"
-                id="message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
-            </button>
-          </form>
+        <html lang="id">
         </div>
-      </div>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=8.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right, #1A237E, #880E4F);
+        height: 100%;
+      }
+
+      .container {
+        
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+      }
+
+      .btn-sosmed {
+        display: inline-block;
+        background: #e0e0e0;
+        width: 96px;
+        height: 96px;
+        margin: 8px;
+        border-radius: 18px;
+        box-shadow: 0 6px 16px -6px #000;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .btn-sosmed.btn-linkedin {
+        color: #1a237e;
+      }
+
+      .btn-sosmed.btn-whatsapp {
+        color: #25d366;
+      }
+
+      .btn-sosmed.btn-envelope {
+        color: #D50000;
+      }
+
+      .btn-sosmed.btn-telegram {
+        color: #304FFE;
+      }
+
+    
+      .btn-sosmed i {
+        line-height: 96px;
+        font-size: 24px;
+        transition: 0.3s linear;
+      }
+
+      .btn-sosmed:hover i {
+        transform: scale(1.2);
+        color: #e0e0e0;
+      }
+
+      .btn-sosmed::before {
+        content: "";
+        
+        width: 105%;
+        height: 150%;
+        transform: rotate(30deg);
+        left: -150%;
+        top: 90%;
+      }
+
+      .btn-sosmed:hover::before {
+        animation: anim 0.6s 1;
+        left: 0;
+        top: -30%;
+      }
+
+      .btn-linkedin::before {
+        background: #1a237e;
+      }
+
+      .btn-whatsapp::before {
+        background: #25d366;
+      }
+
+      .btn-envelope::before {
+        background: #D50000;
+      }
+
+      .btn-telegram::before {
+        background: #304FFE;
+      }
+
+     
+
+      @keyframes anim {
+        0% {
+          left: -150%;
+          top: 90%;
+        }
+        50% {
+          left: 15%;
+          top: -30%;
+        }
+        100% {
+          left: 0;
+          top: -30%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="https://www.linkedin.com/in/iqsan-abiyuda-09205a196/" class="btn-sosmed btn-linkedin">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+
+      <a href="https://wa.me/6285719779038" class="btn-sosmed btn-whatsapp">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      </a>
+
+      <a href="mailto:iqsanabiyuda13@gmail.com" class="btn-sosmed btn-envelope">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </a>
+
+      <a href="https://t.me/Iqsanabi#" class="btn-sosmed btn-telegram">
+        <i class="fa fa-telegram" aria-hidden="true"></i>
+      </a>
+
+    </div>
+  
+        
+        
     </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
-          </div>
-        </div>
+    
 
         <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
-      </div>
-    </footer>
+          
+          
+      
 
     <script src="./index.js"></script>
   </body>
